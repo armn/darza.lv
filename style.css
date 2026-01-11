@@ -57,6 +57,20 @@ body {
   display: block;
 }
 
+/* ABOUT lapa */
+.about {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.about-content {
+  max-width: 720px;      /* līdzīgi kā hero / saturs */
+  text-align: center;   /* IEcentrē tekstu */
+  line-height: 1.6;
+}
+
+
 /* ATBALSTĪTĀJI */
 .supporters {
   max-width: 800px;
@@ -165,3 +179,4 @@ body {
     max-height: 50px;
   }
 }
+
